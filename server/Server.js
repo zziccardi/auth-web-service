@@ -105,7 +105,7 @@ class Server {
     }
 
     /**
-     * Check if the password provided for the user is valid and send an authorization token to the client if so
+     * Check if the password provided for the user is valid and send an authentication token to the client if so
      * @param {Object} req - request object provided by Express
      * @param {Object} res - response object provided by Express
      */
@@ -158,7 +158,7 @@ class Server {
     }
 
     /**
-     * Get the user data stored in the database for the user ID if the authorization token is valid
+     * Get the user data stored in the database for the user ID if the authentication token is valid
      * @param {Object} req - request object provided by Express
      * @param {Object} res - response object provided by Express
      */
